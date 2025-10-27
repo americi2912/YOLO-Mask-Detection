@@ -1,0 +1,12 @@
+train: images/train
+val: images/val
+
+nc: 2
+names: ['mask', 'no_mask']
+
+roboflow:
+  workspace: diego-lucena-de-medeiros
+  project: face-mask-detection-npd3n
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/diego-lucena-de-medeiros/face-mask-detection-npd3n/dataset/1
